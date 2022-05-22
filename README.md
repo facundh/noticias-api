@@ -19,7 +19,7 @@ Construido con 🛠️.
 
 HTML, CSS, Javascript, React JS, MateriaUI.
 
-API 📑[ https://www.cryptocompare.com/](https://newsapi.org/)
+API 📑[(https://newsapi.org/)]
 
 Autor ✒️.
 
