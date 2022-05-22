@@ -1,5 +1,6 @@
 import { Container, Grid, Typography } from "@mui/material";
 import Formulario from "./components/Formulario";
+import ListadoNoticias from "./components/ListadoNoticias";
 import NoticiasProvider from "./context/NoticiasProvider";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <NoticiasProvider>
       <Container>
         <header>
-          <Typography align="center" marginY={5} component="h1" variant="h1">
+          <Typography align="center" marginY={5} component="h1" variant="h1" color={'skyblue'}>
             Buscador de noticias
           </Typography>
         </header>
@@ -22,6 +23,8 @@ function App() {
             <Formulario />
           </Grid>
         </Grid>
+
+        <ListadoNoticias />
       </Container>
     </NoticiasProvider>
   );
